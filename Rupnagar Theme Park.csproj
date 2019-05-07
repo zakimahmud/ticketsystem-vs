@@ -1,0 +1,343 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{5BF338B9-73BF-422E-BA68-21A8EE077B07}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Rupnagar_Theme_Park</RootNamespace>
+    <AssemblyName>Rupnagar Theme Park</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="itextsharp">
+      <HintPath>..\..\..\Pushpo-13143103093\Flower Shop Management\Flower Shop Management\itextsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp.pdfa">
+      <HintPath>..\..\..\Pushpo-13143103093\Flower Shop Management\Flower Shop Management\itextsharp.pdfa.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp.xtra">
+      <HintPath>..\..\..\Pushpo-13143103093\Flower Shop Management\Flower Shop Management\itextsharp.xtra.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="admin login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="admin login.Designer.cs">
+      <DependentUpon>admin login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LoginDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LoginDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="LoginDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LoginDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="LoginDataSet10.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LoginDataSet10.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="LoginDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LoginDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="LoginDataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LoginDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="LoginDataSet4.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LoginDataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="LoginDataSet5.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LoginDataSet5.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="LoginDataSet6.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LoginDataSet6.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="LoginDataSet7.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LoginDataSet7.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="LoginDataSet8.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LoginDataSet8.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="LoginDataSet9.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LoginDataSet9.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Package and Price.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Package and Price.Designer.cs">
+      <DependentUpon>Package and Price.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Package1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Package1.Designer.cs">
+      <DependentUpon>Package1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Package2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Package2.Designer.cs">
+      <DependentUpon>Package2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Package3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Package3.Designer.cs">
+      <DependentUpon>Package3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Package4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Package4.Designer.cs">
+      <DependentUpon>Package4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Package5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Package5.Designer.cs">
+      <DependentUpon>Package5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Welcome.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Welcome.Designer.cs">
+      <DependentUpon>Welcome.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="admin login.resx">
+      <DependentUpon>admin login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Package and Price.resx">
+      <DependentUpon>Package and Price.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Package1.resx">
+      <DependentUpon>Package1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Package2.resx">
+      <DependentUpon>Package2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Package3.resx">
+      <DependentUpon>Package3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Package4.resx">
+      <DependentUpon>Package4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Package5.resx">
+      <DependentUpon>Package5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Welcome.resx">
+      <DependentUpon>Welcome.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="LoginDataSet.xsc">
+      <DependentUpon>LoginDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="LoginDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>LoginDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="LoginDataSet.xss">
+      <DependentUpon>LoginDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="LoginDataSet1.xsc">
+      <DependentUpon>LoginDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="LoginDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>LoginDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="LoginDataSet1.xss">
+      <DependentUpon>LoginDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="LoginDataSet10.xsc">
+      <DependentUpon>LoginDataSet10.xsd</DependentUpon>
+    </None>
+    <None Include="LoginDataSet10.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>LoginDataSet10.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="LoginDataSet10.xss">
+      <DependentUpon>LoginDataSet10.xsd</DependentUpon>
+    </None>
+    <None Include="LoginDataSet2.xsc">
+      <DependentUpon>LoginDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="LoginDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>LoginDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="LoginDataSet2.xss">
+      <DependentUpon>LoginDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="LoginDataSet3.xsc">
+      <DependentUpon>LoginDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="LoginDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>LoginDataSet3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="LoginDataSet3.xss">
+      <DependentUpon>LoginDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="LoginDataSet4.xsc">
+      <DependentUpon>LoginDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="LoginDataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>LoginDataSet4.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="LoginDataSet4.xss">
+      <DependentUpon>LoginDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="LoginDataSet5.xsc">
+      <DependentUpon>LoginDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="LoginDataSet5.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>LoginDataSet5.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="LoginDataSet5.xss">
+      <DependentUpon>LoginDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="LoginDataSet6.xsc">
+      <DependentUpon>LoginDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="LoginDataSet6.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>LoginDataSet6.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="LoginDataSet6.xss">
+      <DependentUpon>LoginDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="LoginDataSet7.xsc">
+      <DependentUpon>LoginDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="LoginDataSet7.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>LoginDataSet7.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="LoginDataSet7.xss">
+      <DependentUpon>LoginDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="LoginDataSet8.xsc">
+      <DependentUpon>LoginDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="LoginDataSet8.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>LoginDataSet8.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="LoginDataSet8.xss">
+      <DependentUpon>LoginDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="LoginDataSet9.xsc">
+      <DependentUpon>LoginDataSet9.xsd</DependentUpon>
+    </None>
+    <None Include="LoginDataSet9.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>LoginDataSet9.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="LoginDataSet9.xss">
+      <DependentUpon>LoginDataSet9.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download1.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
